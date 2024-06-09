@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 380px;
+    height: 230px;
+    border: 1px solid rgb(108, 108, 108);
+    margin: auto;
+    margin-top: 17%;
+    border-radius: 10px;
+    background-color: #fff
+}
+.choose{
+     /* height: 50px;  */
+     /* background-color: rgb(198, 196, 196);  */
+     margin-top: 18px;
+     margin-left: 19px;
+     font-size: 20px;
+     font-weight: 300;
+}
+
+.empty{
+    border: 1px solid rgb(199, 198, 198);
+    margin-top: 18px;
+}
+
+.word{
+    font-size: 15px;
+    margin-left: 19px;
+    margin-top: 13px;
+}
+.btn{
+    margin-left: 19px;
+    margin-top: 10px;
+    padding-left: 70px;
+    padding-top: 6px;
+    padding-bottom:6px ;
+    padding-right: 70px;
+    border-radius: 9px;
+    background-color: #f0c14b;
+    border: #f0c14b;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+    color: rgb(119, 117, 117);
+    font-size: 12px;
+   
+}
+.empty1{
+    border: 1px solid rgb(206, 204, 204);
+    width: 80px;
+    margin-right: 5px;
+    
+}
+.empty2{
+    border: 1px solid rgb(206, 204, 204);
+    width: 100px;
+    
+}
+p{
+    font-size: 14px;
+}
+
+input{
+    margin-left: 19px;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 49px;
+    outline: none;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+button{
+    margin-left: 4px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-radius: 8px;
+    border: 0.5px solid black;
+    outline: none;
+}
